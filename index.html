@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="./script.js"></script>
+
+		<title>Frontend Mentor | Intro section with dropdown navigation</title>
+	</head>
+	<body>
+		<header class="container row">
+			<img class="nav__logo" src="./images/logo.svg" alt="company logo" />
+			<img
+				id="mobile-menu-open"
+				class="mobile"
+				src="./images/icon-menu.svg"
+				alt="open mobile navigation"
+			/>
+			<nav class="hidden">
+				<div class="container col">
+					<div class="col">
+						<img
+							id="mobile-menu-close"
+							class="mobile hidden"
+							src="./images/icon-close-menu.svg"
+							alt="close mobile navigation"
+						/>
+						<div class="super-menu nav__item">
+							Features
+							<img src="./images/icon-arrow-up.svg" alt="features closed" />
+							<ul class="abs-right-align hidden">
+								<li>
+									<img src="./images/icon-todo.svg" alt="todo list" /> Todo List
+								</li>
+								<li>
+									<img src="./images/icon-calendar.svg" alt="calendar" />
+									Calendar
+								</li>
+								<li>
+									<img src="./images/icon-reminders.svg" alt="reminders" />
+									Reminders
+								</li>
+								<li>
+									<img src="./images/icon-planning.svg" alt="planning" />
+									Planning
+								</li>
+							</ul>
+						</div>
+						<div class="super-menu nav__item">
+							Company
+							<img src="./images/icon-arrow-up.svg" alt="features closed" />
+							<ul class="hidden">
+								<li>History</li>
+								<li>Our Team</li>
+								<li>Blog</li>
+							</ul>
+						</div>
+						<a class="nav__item" href="#">Careers</a>
+						<a class="nav__item" href="#">About</a>
+					</div>
+					<div class="col">
+						<div class="button borderless">Login</div>
+						<div class="button">Register</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<img
+				class="mobile"
+				src="./images/image-hero-mobile.png"
+				alt="an engaged laptop user"
+			/>
+			<div class="container">
+				<section class="col-2-lg">
+					<div>
+						<h1>Make <br />remote work</h1>
+						<p>
+							Get your team in sync, no matter your location. Streamline
+							processes, create team rituals, and watch productivity soar.
+						</p>
+						<div class="button inverted-color">Learn more</div>
+						<div id="img-row" class="row">
+							<img
+								class="max-width-15"
+								src="./images/client-databiz.svg"
+								alt="databiz company logo"
+							/>
+							<img
+								class="max-width-15"
+								src="./images/client-audiophile.svg"
+								alt="audiophile company logo"
+							/>
+							<img
+								class="max-width-15"
+								src="./images/client-meet.svg"
+								alt="meet company logo"
+							/>
+							<img
+								class="max-width-15"
+								src="./images/client-maker.svg"
+								alt="maker company logo"
+							/>
+						</div>
+					</div>
+					<div>
+						<img
+							class="desktop"
+							src="./images/image-hero-desktop.png"
+							alt="a productive computer user"
+						/>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">dgjenni2</a>.
+		</div>
+	</body>
+</html>
