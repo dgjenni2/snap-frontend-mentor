@@ -17,5 +17,6 @@ $(document).ready(function () {
 
 	$(".super-menu").click(function () {
 		$(this).children("ul").toggleClass("hidden")
+		$(this).children("img").toggleClass("hidden")
 	})
 })
