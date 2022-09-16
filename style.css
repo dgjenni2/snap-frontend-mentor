@@ -193,6 +193,7 @@ li + li {
 	}
 
 	.darken-background {
+		position: relative;
 		background-color: var(--clr-theme-white);
 	}
 
