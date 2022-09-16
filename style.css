@@ -49,7 +49,7 @@ img {
 	border: solid 2px var(--clr-theme-gray);
 	border-radius: 0.5rem;
 	padding: 0.5rem 1rem;
-	margin: 2rem 0;
+	margin: 0.5rem 0;
 }
 
 .button:hover {
